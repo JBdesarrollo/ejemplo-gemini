@@ -1,0 +1,51 @@
+# Entornos Virtuales
+venv/
+env/
+.venv/
+.env/
+
+# Archivos de Entorno
+.env
+*.env
+*.env.*
+!.env.example
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de distribución / empaquetado
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistemas Operativos
+.DS_Store
+Thumbs.db
+
+# Archivos de dependencias
+*.lock
+requirements.txt
+
+# Archivos de registro
+logs/
+*.log
+
+# Archivos de caché
+.cache/
+.pytest_cache/
+
+# Archivos de configuración específicos
+config.ini
+local_settings.py
